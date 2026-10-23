@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tokumei Daredemo</title>
+<meta name="description" content="Official author site for Paper Shangri-La (Paper Shangrila) by Tokumei Daredemo.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<style>
+:root {
+  --bg: #f1f3ef; --fg: #15212b; --muted: #526069; --line: #c9d1cb;
+  --accent: #a8620f; --accent-fg: #ffffff; --panel: #e6eae4;
+  --display: "Fraunces", Georgia, "Times New Roman", serif;
+  --body: "Fraunces", Georgia, "Times New Roman", serif;
+  --ui: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0f1820; --fg: #e8eae4; --muted: #9aa7ad; --line: #28363f; --accent: #e5a14d; --accent-fg: #15212b; --panel: #16222b; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 18px; line-height: 1.65; padding: 40px 16px 72px; }
+main { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px; }
+h1, h2 { font-family: var(--display); font-weight: 600; line-height: 1.15; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2.4rem, 8vw, 3.6rem); letter-spacing: -0.01em; }
+h2 { font-size: 1.5rem; }
+p { margin: 0; }
+.eyebrow { font-family: var(--ui); font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 1.2rem; color: var(--muted); margin-top: 12px; }
+.hero { display: flex; flex-direction: column; gap: 8px; }
+.buy { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.btn { font-family: var(--ui); font-weight: 500; font-size: 0.95rem; text-decoration: none; padding: 12px 18px; border-radius: 4px; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-fg); }
+.btn.alt { background: transparent; color: var(--fg); border-color: var(--fg); }
+.btn:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.btn small { opacity: 0.85; font-weight: 400; margin-left: 6px; }
+section { display: flex; flex-direction: column; gap: 14px; }
+.chapters { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.chapters li { padding: 10px 0; border-bottom: 1px solid var(--line); display: flex; gap: 16px; }
+.chapters span { font-family: var(--ui); font-size: 0.8rem; color: var(--muted); min-width: 4.5rem; padding-top: 0.35rem; }
+blockquote { margin: 0; padding: 18px 20px; background: var(--panel); border-left: 3px solid var(--accent); font-size: 1.1rem; }
+blockquote cite { display: block; margin-top: 8px; font-family: var(--ui); font-size: 0.8rem; font-style: normal; color: var(--muted); }
+.email-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.email { font-family: var(--ui); font-size: 1.05rem; word-break: break-all; padding: 8px 12px; background: var(--panel); border-radius: 4px; user-select: all; }
+button.copy { font-family: var(--ui); font-size: 0.85rem; padding: 8px 12px; border-radius: 4px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; }
+.links { display: flex; flex-wrap: wrap; gap: 8px 20px; font-family: var(--ui); font-size: 0.95rem; }
+a { color: var(--accent); }
+footer { font-family: var(--ui); font-size: 0.8rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <p class="eyebrow">Nonfiction &middot; History &middot; Philosophy</p>
+    <h1>Paper Shangri-La</h1>
+    <p class="lede">A Guide to Learning from History, by Tokumei Daredemo</p>
+    <div class="buy">
+      <a class="btn" href="https://www.amazon.com/dp/B0F2ZS1FWP" rel="noopener">Kindle <small>$3.99</small></a>
+      <a class="btn alt" href="https://www.amazon.com/dp/B0F32RSCRG" rel="noopener">Paperback <small>$8.49</small></a>
+    </div>
+  </header>
+
+  <section aria-labelledby="about-book">
+    <h2 id="about-book">Why do empires rise, fall, and rise again?</h2>
+    <p>Paper Shangri-La is a short, personal tour through the history that shaped the Middle East and South Asia, read through Ibn Khaldun, the 14th-century thinker who believed every civilization follows a cycle of growth and decline.</p>
+    <p>It follows the family tree shared by the Bible and the Quran, the Prophet's world and the succession crisis, the Islamic Golden Age, Genghis Khan's destruction at Otrar, the Mughal prince Dara Shikoh, and the Partition of 1947 and the war of 1971. It then turns to the Anthropocene, hostile architecture, and artificial intelligence, and asks what they say about our pursuit of utopia.</p>
+    <p>Its argument is that no society reaches a perfect world, only a better direction. The danger comes when a virtue such as power, liberty, or knowledge is cut off from the one that completes it.</p>
+    <p>The book closes with a personal epilogue and a small collection of original poems.</p>
+  </section>
+
+  <section aria-labelledby="inside">
+    <h2 id="inside">Inside the book</h2>
+    <ol class="chapters">
+      <li><span>Ch. 1</span>The Lineage of the Abrahamic Faiths</li>
+      <li><span>Ch. 2</span>The Rise of the Islamic Golden Age</li>
+      <li><span>Ch. 3</span>The Fall &amp; Ibn Khaldun's Book of Lessons</li>
+      <li><span>Ch. 4</span>India: A Cultural Fusion Chamber</li>
+      <li><span>Ch. 5</span>The Paradigms of Partition</li>
+      <li><span>Ch. 6</span>The Anthropocene Paradox</li>
+    </ol>
+    <blockquote>
+      That's why I used to say AI can't begin a poem, but it can end one well. Beginning needs a stake: something that presses on you from inside and has to come out.
+      <cite>From Chapter 6, Paper Shangri-La</cite>
+    </blockquote>
+  </section>
+
+  <section aria-labelledby="author">
+    <h2 id="author">About the author</h2>
+    <p>Tokumei Daredemo is a pen name, roughly "anonymous, anyone." The author works in the design, documentation, and visualization of architecture, and has long been fascinated by the built and natural environments and the way each shapes the other.</p>
+    <p>Paper Shangri-La grew out of an earlier, unpublished collection of poems, Vessels of Light, and a long effort to verify the early history of Islam and the world around it.</p>
+    <div class="links">
+      <a href="https://www.goodreads.com/author/show/55486197.Tokumei_Daredemo" rel="noopener">Goodreads author page</a>
+      <a href="https://www.amazon.com/dp/B0F2ZS1FWP" rel="noopener">Amazon book page</a>
+    </div>
+  </section>
+
+  <section aria-labelledby="contact">
+    <h2 id="contact">Official author contact</h2>
+    <p>For questions, review copies, and press, write to the author at:</p>
+    <div class="email-row">
+      <span class="email" id="author-email">anam.majeed321@gmail.com</span>
+      <button class="copy" id="copy-email" type="button">Copy address</button>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Tokumei Daredemo. Paper Shangri-La is also listed as Paper Shangrila.</footer>
+</main>
+<script>
+(function () {
+  var btn = document.getElementById('copy-email');
+  var text = document.getElementById('author-email');
+  btn.addEventListener('click', function () {
+    var done = function () { btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = 'Copy address'; }, 1800); };
+    var fallback = function () {
+      var r = document.createRange(); r.selectNodeContents(text);
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      btn.textContent = 'Press Ctrl+C';
+    };
+    try { navigator.clipboard.writeText(text.textContent).then(done, fallback); } catch (e) { fallback(); }
+  });
+})();
+</script>
+</body>
+</html>
